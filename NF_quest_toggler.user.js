@@ -3,6 +3,7 @@
 // @namespace    https://github.com/tobbe
 // @version      0.1
 // @description  Toggles showing completed quests on the quest page
+// @license      MIT
 // @author       Tobbe
 // @match        https://www.nerdfitness.com/level-up/my-quests/
 // @grant        unsafeWindow
