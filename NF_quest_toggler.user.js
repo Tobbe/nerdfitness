@@ -38,7 +38,7 @@
         const toggleHtml = `
             <div id="toggle-completed-quests-container">
                 <input type="checkbox" id="toggle-completed-quests" checked>
-                <label for="toggle-completed-quests">Show completed</label>
+                <label for="toggle-completed-quests">Include completed</label>
             </div>
         `;
         const toggle = htmlToElement(toggleHtml);
