@@ -51,8 +51,8 @@
         const questBlocks = document.querySelectorAll('.quests-quests-block');
 
         for (const block of questBlocks) {
-            const completedStatus = block.querySelector('.qh-rect img');
-            if (completedStatus.src.endsWith('92.png')) {
+            const completedStatus = block.querySelector('.quest-head');
+            if (completedStatus.classList.contains('q-complete')) {
                 block.style.display = shouldShow ? 'block' : 'none';
             }
         }
