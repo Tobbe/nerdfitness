@@ -63,5 +63,18 @@
         showCompleted(toggle.checked);
     });
 
+    document.querySelector('.fx-inner-cont').onclick = event => {
+        if (event.target.classList.contains('qh-complete')) {
+            const toggle = document.getElementById('toggle-completed-quests');
+            const questBlock = event.target.closest('.quests-quests-block');
+            const headClassList = questBlock.querySelector('.quest-head').classList;
+
+            headClassList.toggle('q-complete');
+            headClassList.toggle('q-incomplete');
+
+            questBlock.style.display = toggle.checked ? 'block' : 'none';
+        }
+    };
+
     insertToggle();
 })();
