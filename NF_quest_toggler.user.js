@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Nerd Fitness completed quests toggler
 // @namespace    https://github.com/tobbe
-// @version      0.2
+// @version      0.3
 // @description  Toggles showing completed quests on the quest page
 // @license      MIT
 // @author       Tobbe
